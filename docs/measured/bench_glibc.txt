@@ -1,0 +1,7 @@
+bench page_size 4096 max_align 16
+space blocks 20000 payload_bytes 2560000 requested_MiB 2.441 rss_base_kB 1816 rss_live_kB 4748 rss_after_free_kB 2064 rss_after_trim_kB -1 vm_live_kB 2772 vm_after_free_kB 4 hwm_kB 4748 live_over_requested 1.173
+pair_malloc_free size 64 ops 1000000 runs 5 median_s 0.007211 ops_per_s 138680906 best_ops_per_s 143110203 worst_ops_per_s 130155475
+mixed threads 1 ops_per_thread 80000 slots 1024 runs 5 median_ops_per_s 15240098 median_batch_p99_ns 125.8
+mixed threads 2 ops_per_thread 80000 slots 1024 runs 5 median_ops_per_s 27629962 median_batch_p99_ns 131.3
+mixed threads 4 ops_per_thread 80000 slots 1024 runs 5 median_ops_per_s 40982767 median_batch_p99_ns 155.6
+mixed threads 8 ops_per_thread 80000 slots 1024 runs 5 median_ops_per_s 49010204 median_batch_p99_ns 240.3
