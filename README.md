@@ -2,6 +2,12 @@
 
 User-space allocator for the Low-Level Hackathon (Synergy '26, IIIT Bangalore). Question **SYSPROG10**. Team Tebri, solo: Aman Tebriwal.
 
+## Track
+
+Track: Systems Programming. Question ID: SYSPROG10.
+
+Build and test from this directory with `make clean`, `make`, and `make check`. The commands and what `make check` covers are in [Build and test](#build-and-test).
+
 `my_malloc`, `my_free`, `my_realloc`, and `my_calloc` follow the contract in the official `PROBLEM.md`. The implementation is size-class slabs plus a per-thread cache. Objects larger than 32,768 bytes are their own anonymous mappings. See `DESIGN.md` and `docs/BENCHMARKS.md`.
 
 This tree has not been submitted. The Unstop form wants a GitHub link; publishing that mirror still needs Aman's go-ahead. Deadline: 13 Nov 2026, 11:59 PM IST. Live demos: 14 Nov 2026, 9:00 AM IST.
